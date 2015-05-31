@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/shed-c/SHEDpage/issues"
   },
-  "homepage": "https://github.com/shed-c/SHEDpage"
+  "homepage": "https://github.com/shed-c/SHEDpage",
+  "devDependencies": {
+    "bower": "^1.4.1"
+  }
 }
