@@ -1,0 +1,16 @@
+{
+  "name": "SHEDpage",
+  "version": "1.0.0",
+  "homepage": "http://shed-c.github.io/SHEDpage/",
+  "authors": [
+    "shed-c"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
