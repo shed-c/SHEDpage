@@ -1,12 +1,12 @@
-Quick Start
-
-**Warning** npmがインストールされてる必要があります
+# Quick Start
 
 ```
 npm install
 ```
 
-インストールされるもの
+**Warning** npmがインストールされてる必要があります
+
+## インストールされるもの
 
 - bower
 - bootstrap
