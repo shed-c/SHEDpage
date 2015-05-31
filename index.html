@@ -1,32 +1,56 @@
 <!doctype html>
 <html lang="ja">
   <head>
-
     <meta charset="utf-8">
     <title>SHED</title>
-    <link rel="stylesheet" href="main.css">
 
+    <!-- Mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Twitter Bootstrap -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- Material Design for Bootstrap -->
+    <link rel="stylesheet" href="bower_components/bootstrap-material-design/dist/css/roboto.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap-material-design/dist/css/material-fullpalette.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap-material-design/dist/css/ripples.min.css">
+
+    <!-- Original CSS -->
+    <link rel="stylesheet" href="css/main.css">
   </head>
-
   <body>
 
     <h1>SHEDのグループページだよ</h1>
     <h2>〜あべきんぐだむ〜</h2>
     <h3>メンバー紹介！<h3>
-        <li>
-          創設者　代表　<a href="https://www.facebook.com/hikari1227">ABE</a>
-        </li>
-        <li>
-          副代表　<a href="https://www.facebook.com/hirodon57?hc_location=ufi">HIRODON</a>
-        </li>
-        <li>
-          専属デザイナー　<a href="https://www.facebook.com/hebiishi.k">HEBI</a>
-        </li>
-        <li>会計　しゅんさん</li>
-        <li>DJ　GUNJI</li>
-        <li>書記　ねづさん</li>
-        <li>ドラゴンマスター igaiga</li>
-        <li>淫夢　Masato Y</li>
-        <li>残飯処理班　<a href="https://www.facebook.com/nagisa.yonehara">DEBUYONE</li>
+        <ul>
+          <li>
+            創設者　代表　<a href="https://www.facebook.com/hikari1227">ABE</a>
+          </li>
+          <li>
+            副代表　<a href="https://www.facebook.com/hirodon57?hc_location=ufi">HIRODON</a>
+          </li>
+          <li>
+            専属デザイナー　<a href="https://www.facebook.com/hebiishi.k">HEBI</a>
+          </li>
+          <li>会計　しゅんさん</li>
+          <li>DJ　GUNJI</li>
+          <li>書記　ねづさん</li>
+          <li>ドラゴンマスター igaiga</li>
+          <li>淫夢　Masato Y</li>
+          <li>残飯処理班　<a href="https://www.facebook.com/nagisa.yonehara">DEBUYONE</li>
+        </ul>
+        <!-- jQuery -->
+        <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+
+        <!-- Twitter Bootstrap -->
+        <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <!-- Material Design for Bootstrap -->
+        <script src="./bower_components/bootstrap-material-design/dist/js/material.min.js"></script>
+        <script src="./bower_components/bootstrap-material-design/dist/js/ripples.min.js"></script>
+        <script>
+          $.material.init();
+        </script>
   </body>
 </html>
